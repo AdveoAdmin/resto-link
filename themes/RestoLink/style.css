@@ -1,0 +1,104 @@
+/*!
+Theme Name: Resto Link
+Theme URI:
+Author: Adveo SA
+Author URI: https://adveo.ch
+Description: Kava child theme.
+Template: kava
+Version: 1.0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kava-child
+*/
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0; }
+
+.green {
+  color: #22D6C1; }
+
+.white {
+  color: #fff; }
+
+.blue {
+  color: #14324A; }
+
+.main-search .jet-checkboxes-dropdown:hover .jet-checkboxes-dropdown__label,
+.main-search .jet-checkboxes-dropdown:hover .jet-select__control,
+.main-search .jet-select:hover .jet-checkboxes-dropdown__label,
+.main-search .jet-select:hover .jet-select__control {
+  border-color: #22D6C1 !important; }
+.main-search .jet-checkboxes-dropdown .jet-select__control:focus,
+.main-search .jet-select .jet-select__control:focus {
+  border: none;
+  outline: none; }
+.main-search .jet-checkboxes-dropdown .jet-checkboxes-dropdown__label,
+.main-search .jet-checkboxes-dropdown .jet-select__control,
+.main-search .jet-select .jet-checkboxes-dropdown__label,
+.main-search .jet-select .jet-select__control {
+  transition: all 300ms ease; }
+
+select, .jet-sorting-select, .jet-select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  line-height: normal;
+  position: relative;
+  background-size: 10px;
+  background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNDA1LjQ1NiA0MDUuNDU2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MDUuNDU2IDQwNS40NTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4NCjxnPg0KCTxwYXRoIGQ9Ik03NC4xMzQsNjQuMTQ3Yy00Ljk4NSwwLjA3OC05LjkxMSwyLjE2My0xMy40MzgsNS42ODhsLTU1LDU1QzIuMDk2LDEyOC40MzIsMCwxMzMuNDkyLDAsMTM4LjU4MyAgIHMyLjA5NiwxMC4xNTEsNS42OTcsMTMuNzVsMTgzLjI4MSwxODMuMjgxYzMuNTk5LDMuNjAxLDguNjU5LDUuNjk3LDEzLjc1LDUuNjk3czEwLjE1MS0yLjA5NiwxMy43NS01LjY5N2wxODMuMjgxLTE4My4yODEgICBjMy42MDEtMy41OTksNS42OTctOC42NTksNS42OTctMTMuNzVzLTIuMDk2LTEwLjE1MS01LjY5Ny0xMy43NWwtNTUtNTVjLTMuNTk4LTMuNTkxLTguNjUxLTUuNjgxLTEzLjczNC01LjY4MSAgIGMtNS4wODMsMC0xMC4xMzYsMi4wOS0xMy43MzQsNS42ODFMMjAyLjcyOCwxODQuMzk3TDg4LjE2Niw2OS44MzNDODQuNDk5LDY2LjE2OSw3OS4zMTgsNjQuMDcsNzQuMTM0LDY0LjE0N0w3NC4xMzQsNjQuMTQ3eiIgZmlsbD0iIzk2OTY5NiIvPg0KPC9nPg0KPC9zdmc+DQo=);
+  background-position: right 10px top 50%;
+  background-repeat: no-repeat; }
+
+.elementor-text-editor ul,
+.custom-list ul {
+  list-style-type: none;
+  padding-left: 0; }
+  .elementor-text-editor ul li,
+  .custom-list ul li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 5px; }
+    .elementor-text-editor ul li::before,
+    .custom-list ul li::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: .65rem;
+      width: 6px;
+      height: 6px;
+      margin-top: -3px;
+      background-color: #22D6C1; }
+
+.custom-list ul li::before {
+  top: .7rem; }
+
+.jet-mobile-menu:focus,
+.jet-mobile-menu__instance:focus,
+.jet-mobile-menu__toggle:focus {
+  outline: none !important; }
+
+.main-search .search-type option[data-label="Restauration"],
+.main-search .search-type option[data-label="Commerces"],
+.main-search .search-type option[data-label="Immobilier"] {
+  display: none; }
+.main-search .search-type .jet-smart-filters-select {
+  width: 50%;
+  height: 52px; }
+.main-search .search-price .elementor-widget-container {
+  height: 52px; }
+.main-search .search-btn button {
+  height: 52px; }
+
+.data-flex-container .elementor-widget-wrap .data-flex-items {
+  width: auto;
+  margin: 0;
+  flex-grow: 1;
+  flex-basis: 25%; }
+
+@media screen and (max-width: 768px) {
+  .data-flex-container .elementor-widget-wrap .data-flex-items {
+    width: 100%;
+    flex-basis: 100%; }
+
+  .main-search .search-type .jet-smart-filters-select {
+    width: 95%; } }
